@@ -4,7 +4,7 @@ metadata:
   name: {{.Release.Name}}-backend
 spec:
   revisionHistoryLimit: 0
-  replicas: 2
+  replicas: {{ .Values.backendReplicas }}
   selector:
     matchLabels:
       app: {{.Release.Name}}-backend
