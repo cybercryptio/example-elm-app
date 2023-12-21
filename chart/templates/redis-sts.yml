@@ -35,8 +35,8 @@ spec:
               name: data
           resources:
             requests:
-              cpu: 100m
-              memory: 100Mi
+              cpu: 50m
+              memory: 50Mi
             limits:
-              memory: 200Mi
-              cpu: 200m
+              cpu: 100m
+              memory: 150Mi

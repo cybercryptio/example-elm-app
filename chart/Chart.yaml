@@ -2,4 +2,4 @@ apiVersion: v2
 name: example-elm-app
 description: Example ELM App for Kubernetes Training
 type: application
-version: 0.2.0
+version: 0.3.0
