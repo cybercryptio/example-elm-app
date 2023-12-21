@@ -13,3 +13,13 @@
 *.local.yaml
 *.local.json
 *.local.txt
+
+# Project
+/backend/elm-backend
+
+# NodeJS
+node_modules
+
+# Next.js
+.next
+out
