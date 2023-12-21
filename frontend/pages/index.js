@@ -26,7 +26,8 @@ export default function Index(props) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://127.0.0.1:80/api/counter`)
+  var API_ORIGIN = process.env.API_ORIGIN || "http://127.0.0.1"
+  const res = await fetch(API_ORIGIN+`/api/counter`)
   const data = await res.json()
   return {
     props: {
